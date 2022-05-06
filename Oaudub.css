@@ -1,0 +1,310 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#sec1 {
+    background-color: rgba(8, 8, 51, 0.49);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.8em 1.8em;
+    box-shadow: 20px 20px 50px black;  
+}
+
+
+.sec11 {
+    padding-right: 3em;
+}
+
+#sec1 .sec11 img {
+    height: 5em;
+    width: 6em;
+}
+
+.sec12 {
+    color: #060236;
+    font-size: 1.32em;
+/*    word-spacing: 7px;*/
+}
+
+#sec1 h2 {
+    padding: 0px;
+    margin-bottom: 0px
+}
+
+#sec1 h1 {
+    margin-top: 0
+}
+
+
+#sec2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: yellowgreen;
+    background-color: #080833;
+    padding: 1em 1.5em 0.4em 0em;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.sec21 a{
+    text-decoration: none;
+    color: #867d13;
+    font-weight: bold;
+    padding: 1em;
+    margin: 0.1em;
+    
+}
+.sec21 a:hover{
+    border: solid 1px white;
+    margin: 1em 1em;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border-radius: 10%;
+}
+
+.sec22 a{
+    text-decoration: none;
+    color: #867d13;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 0.7em;
+    
+}
+
+.sec22 a:hover{
+    border: solid 1px white;
+    margin: 1em 1em;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border-radius: 10%;
+}
+
+
+
+
+#sec3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 0.5em;
+    width: 100%;
+    border-bottom: solid 1em #6a5353;
+    z-index: -1;
+}
+
+#sec3 img{
+    height: 20em;
+    width: 100%;
+  
+    
+}
+#sec3 img:hover{
+    border: 2px solid red;
+    transition: 0.5s;
+    
+    
+}
+
+.sec32 {
+    width: 30%;
+}
+
+.sec321 {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.53);
+    padding: 0.1em 1em 0.01em 1.8em;
+}
+
+.sec322 {
+    padding-left: 1em
+}
+
+.sec3221 {
+    color: black;
+    font-weight: bold;
+}
+
+.sec3222 {
+    color: blue;
+    font-size: 0.9em;
+}
+
+
+
+.sec31 {
+    width: 75%;
+    position: relative;
+}
+
+.sec312 {
+    position: absolute;
+    bottom: 5px;
+    left: 0%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    padding-top: 10px;
+    padding-left: 0%;
+    word-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+#sec4 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.99em;
+    
+}
+
+.sec41 h1 {
+    color: #cece14;
+    text-decoration: underline;
+    
+}
+
+.sec41 ul {
+    color: #28285c;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+    padding: 4px;
+}
+
+
+.sec41 h4 {
+    color: #28285c;;
+    font-weight: bold;
+}
+
+.sec41 
+
+
+
+#sec4111 {
+    color: blue;
+}
+
+.sec41 li {
+    margin-bottom: 20px;
+}
+
+.sec41 {
+    width: 33%;
+    padding-right: 5em;
+}
+
+.sec42 {
+    width: 33%;
+    padding-right: 5em;
+}
+
+.sec43 {
+    width: 33%;
+    padding-left: 5em;
+}
+
+.sec42 h1{
+    color: #cece14;
+    text-decoration: underline;
+}
+
+.sec42 ul{
+    color: #28285c;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+    padding: 4px;
+}
+
+.sec42 li{
+    padding-bottom: 10px;
+}
+.sec43 h1{
+    color: #cece14;
+    text-decoration: underline;
+}
+
+.sec43 ul{
+    color: #28285c;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+    padding: 4px;
+}
+
+.sec43 li{
+    padding-bottom: 10px;
+}
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: black;
+    height: 15em;
+    width: 100%;
+
+}
+#footer .f1 {
+    width: 30%;
+    padding: 0px 10px;
+    margin: 0px;
+    
+}
+
+#footer .f1ul a{
+   
+    color: rgba(6, 58, 129, 0.96);
+    text-decoration: none;
+    width: 100%;
+
+} 
+
+#footer .f1ul {
+    list-style: none;
+    padding: 10px;
+    align-items: flex-start
+}
+
+#footer .f2 {
+    width: 70%;
+    padding: 0px 10px;
+    margin: 0px;
+    padding: 10px;
+}
+
+}
+#footer .f2ul {
+    list-style: none;   
+}
+
+#footer .f2ul a{
+    color: #a5a1a1;
+    text-decoration: none;
+    
+}
+
+#footer .f2ul a span {color: rgba(6, 58, 129, 0.96)
+
+}
+
+
+
